@@ -31,7 +31,7 @@ class AtendimentoActivity : Activity() {
                 }
             } else {
                 val listaAtendimentosStr = atendimentos?.map {
-                    "Nome: ${it.descricao}\nDias: ${it.dias}\nHábito: ${it.habito}\nSono: ${it.tempoSono}\nHereditário: ${it.hereditario}\nData: ${it.dataEnvio}"
+                    "Nome: ${it.descricao}\nEspecie: ${it.especie}\nTemponoSol: ${it.temponosol}\nIntervalodeAgua: ${it.intervalodeAgua}"
                 } ?: emptyList()
 
                 runOnUiThread {

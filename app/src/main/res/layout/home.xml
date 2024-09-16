@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#008080"
-            android:text="CareMI"
+            android:text="PlantNet"
             android:textAlignment="center"
             android:textColor="#FBFBFB"
             android:textSize="24sp" />
@@ -63,8 +63,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="108dp"
-        android:layout_height="108dp"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="39dp"
         android:layout_marginEnd="8dp"
@@ -116,7 +116,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="50dp"
         android:background="#00FFFFFF"
-        android:text="Agendamento  Online"
+        android:text="Fotografar a planta"
         android:textColor="#008080"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtAtendimento"
@@ -140,5 +140,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/txtAgendamento" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        app:srcCompat="@android:drawable/stat_notify_more"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="338dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

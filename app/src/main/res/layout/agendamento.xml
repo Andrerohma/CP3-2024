@@ -24,143 +24,24 @@
         android:id="@+id/txtDescricao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Descrição"
+        android:layout_marginTop="44dp"
+        android:text="Tire uma foto da planta"
         android:textColor="#000000"
         android:textColorLink="#000000"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:layout_editor_absoluteX="34dp" />
-
-    <EditText
-        android:id="@+id/edtDescricao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:cursorVisible="false"
-        android:ems="10"
-        android:inputType="text"
-        android:scrollbarStyle="outsideInset"
-        android:selectAllOnFocus="false"
-        app:layout_constraintStart_toStartOf="@+id/txtDescricao"
-        app:layout_constraintTop_toBottomOf="@+id/txtDescricao" />
-
-    <TextView
-        android:id="@+id/txtDias"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="Dias"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/edtDescricao"
-        tools:layout_editor_absoluteX="34dp" />
-
-    <TextView
-        android:id="@+id/txtHabito"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="Hábito"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/edtDias"
-        tools:layout_editor_absoluteX="36dp" />
-
-    <TextView
-        android:id="@+id/txtSono"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="Tempo Sono"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/edtHabito"
-        tools:layout_editor_absoluteX="34dp" />
-
-    <TextView
-        android:id="@+id/txtHereditario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="Hereditário"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/edtSono"
-        tools:layout_editor_absoluteX="36dp" />
-
-    <EditText
-        android:id="@+id/edtDias"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@+id/txtDias"
-        app:layout_constraintTop_toBottomOf="@+id/txtDias" />
-
-    <EditText
-        android:id="@+id/edtHabito"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@+id/txtHabito"
-        app:layout_constraintTop_toBottomOf="@+id/txtHabito" />
-
-    <EditText
-        android:id="@+id/edtSono"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@+id/txtSono"
-        app:layout_constraintTop_toBottomOf="@+id/txtSono" />
-
-    <EditText
-        android:id="@+id/edtHereditario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@+id/txtHereditario"
-        app:layout_constraintTop_toBottomOf="@+id/txtHereditario" />
+        tools:layout_editor_absoluteX="131dp" />
 
     <Button
         android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="Enviar"
-        android:textColor="#FFFFFF"
         android:background="@drawable/btn"
+        android:text="Foto"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtData" />
-
-    <TextView
-        android:id="@+id/txtData"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="Data e Hora"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/edtHereditario"
-        tools:layout_editor_absoluteX="36dp" />
-
-    <EditText
-        android:id="@+id/edtData"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@+id/txtData"
-        app:layout_constraintTop_toBottomOf="@+id/txtData" />
+        tools:layout_editor_absoluteY="599dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -175,5 +56,13 @@
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="187dp"
+        android:layout_height="208dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="261dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

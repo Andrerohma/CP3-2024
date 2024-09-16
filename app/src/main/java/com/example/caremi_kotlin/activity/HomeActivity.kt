@@ -22,7 +22,7 @@ class HomeActivity : Activity() {
         }
 
         btnAgendamento.setOnClickListener {
-            val intent = Intent(this, AgendamentoActivity::class.java)
+            val intent = Intent(this, PlantaActivity::class.java)
             startActivity(intent)
         }
 

@@ -30,7 +30,7 @@
         <activity android:name=".activity.HomeActivity"/>
         <activity android:name=".activity.ExameActivity"/>
         <activity android:name=".activity.AtendimentoActivity"/>
-        <activity android:name=".activity.AgendamentoActivity"/>
+        <activity android:name=".activity.EspecieActivity"/>
 
 
     </application>

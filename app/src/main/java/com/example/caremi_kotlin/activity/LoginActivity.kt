@@ -33,7 +33,7 @@ class LoginActivity : Activity() {
                 loginRepository.fazerLogin(login) { sucesso, erro ->
                     runOnUiThread {
                         if (sucesso) {
-                            Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Login Feito!", Toast.LENGTH_SHORT).show()
                             startActivity(Intent(this, HomeActivity::class.java))
                         } else {
                             Toast.makeText(this, "Falha no login: $erro", Toast.LENGTH_SHORT).show()
@@ -41,7 +41,7 @@ class LoginActivity : Activity() {
                     }
                 }
             } else {
-                Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Preencha todas as informações.", Toast.LENGTH_SHORT).show()
             }
         }
     }

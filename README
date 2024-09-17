@@ -12,9 +12,19 @@ Marcela S Moreira -RM552051- TURMA 2TDSPY
 Nathalia Braga do Nascimento - RM552221- TURMA 2TDSPY
 
 
-Este projeto foi feito com o intuito dos donos de plantas falarem qual a espécie de suas plantas e outras informações delas para sabermos quais os potenciais motivos para as plantas estarem apresentando
-certos síntomas ou até morte, utilizamos essas informações e um reconhecimento de imagem que será preparado para reconhecermos com facilidade a origem destes problemas. 
+Este projeto tem como objetivo facilitar o diagnóstico de doenças em plantas, fornecendo aos usuários uma interface para inserir informações sobre suas plantas, como espécie, tempo de exposição ao sol,
+intervalo de rega, e sintomas visíveis. A aplicação então utiliza essas informações, junto com um sistema de reconhecimento de imagem, para identificar possíveis causas de problemas nas plantas.
 
+Principais componentes do projeto:
+Interface de Usuário (UI): O aplicativo permite que o usuário insira detalhes da planta por meio de campos de texto (EditText). Estes campos são usados para capturar dados como descrição da planta, espécie, 
+tempo de exposição ao sol, e frequência que a planta é regada. A interface é simples e intuitiva, facilitando a inserção de informações necessárias.
+
+Validação e Feedback: O aplicativo oferece feedback imediato ao usuário sobre o status do envio das informações. Em caso de sucesso, os campos são limpos e uma mensagem de sucesso é exibida. Em caso de erro,
+uma mensagem informando o problema é mostrada.
+
+Finalidade:
+O projeto combina uma interface de entrada de dados simples com tecnologias de reconhecimento de imagem para ajudar donos de plantas a diagnosticar possíveis problemas e doenças, melhorando a saúde das plantas
+por meio de orientações e análises mais precisas.
 
 Link diagrama de arquitetura
 

@@ -26,6 +26,9 @@ Finalidade:
 O projeto combina uma interface de entrada de dados simples com tecnologias de reconhecimento de imagem para ajudar donos de plantas a diagnosticar possíveis problemas e doenças, melhorando a saúde das plantas
 por meio de orientações e análises mais precisas.
 
+Principais mudanças CP4: 
+O projeto foi atualizado e implementado, para suportar funções usando async storage e ter telas completas de CRUD e integra-lo com APIs.  
+
 Link diagrama de arquitetura
 
 https://www.figma.com/design/TmeCMVLnWtoYNUwhDRI6IN/CP3-arquitetura?node-id=0-1&t=go9JeCrucQqhCFP6-1
